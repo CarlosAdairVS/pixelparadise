@@ -4,7 +4,7 @@
 // $link ='mysql:dbname=oasis;host=127.0.0.1';
 // $usuario='root';
 // $password='root';
-$link ='mysql:dbname=oasis;host=127.0.0.1';
+$link ='mysql:dbname=pixelparadise;host=127.0.0.1';
 $usuario='root';
 $password='123qwe';
 
