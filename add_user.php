@@ -57,7 +57,7 @@ if (password_verify($contrasena2, $contrasena)) {
     	var_dump($resultado);
     	//Ahora se creara una entrada en la tabla "user_inf"
     	$fecha_creacion = date("Y-m-d");
-    	//NOTA:Modificar el campo de user_name,profile_pic DEFAULT ''
+
     	$sql_agregar = "INSERT INTO user_inf (avatar_id,user_id,birthday_date,create_date) VALUES (NULL,?,?,?)";
     	$sentencia_agregar = $mdb->prepare($sql_agregar);
     	$sentencia_agregar->execute(array($resultado[0],$fecha_nac,$fecha_creacion));
