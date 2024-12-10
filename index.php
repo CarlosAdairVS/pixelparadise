@@ -55,7 +55,7 @@ if(isset($_SESSION['user'])){
                 <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
                     <h1 class="display-4 text-white mb-4 animated slideInRight">Pixel Paradise: Tu destino para videojuegos</h1>
                     <p class="text-white mb-4 animated slideInRight">Descubre y explora una gran variedad de videojuegos</p>
-                    <a href="signup.php" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Registrate</a>
+                    <a href="registro.php" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Registrate</a>
                 </div>
                 <div class="col-lg-6 align-self-end text-center text-lg-end">
                     <img class="img-fluid" src="assets\image\pixelLogo.png" alt="">

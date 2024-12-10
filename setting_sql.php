@@ -46,7 +46,7 @@ if( isset($_SESSION['user'])){
 	}
 	header('Location:restricted.php');
 } else{
-	header('Location:signup.php');
+	header('Location:registro.php');
 	//echo "error con SESSION";
 }
 ?>

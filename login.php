@@ -25,7 +25,7 @@
     </form>
     <div>
       <div>¿No tienes una cuenta?</div>
-      <a href="signup.php">Registrarse</a>
+      <a href="registro.php">Registrarse</a>
     </div>
   </div>
 </body>
