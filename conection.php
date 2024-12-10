@@ -1,9 +1,4 @@
 <?php
-//Conectandose a la BD con PDO
-//Definimos los parametros del constructor, usamos un usuario con privilegios
-// $link ='mysql:dbname=oasis;host=127.0.0.1';
-// $usuario='root';
-// $password='root';
 $link ='mysql:dbname=pixelparadise;host=127.0.0.1';
 $usuario='root';
 $password='123qwe';
