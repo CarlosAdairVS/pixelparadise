@@ -79,22 +79,6 @@ if(isset($_SESSION['user'])){
                     <p class="mb-4">Bienvenidos a Pixel Paradise, tu destino definitivo para todo lo relacionado con videojuegos. Somos un apasionado equipo de gamers dedicados a traerte las últimas novedades, los clásicos inolvidables y todo lo que necesitas para disfrutar al máximo de tu experiencia de juego.</p>    
                     <p class="mb-4">En Pixel Paradise, creemos en el poder de los videojuegos para conectar a las personas y crear mundos nuevos. Nos esforzamos por ofrecerte un servicio de primera calidad y una selección de productos que te inspiren y emocionen.</p>
                     <p class="mb-4">Gracias por ser parte de nuestra comunidad. ¡Vamos a explorar juntos el universo de los videojuegos!</p>
-                    <div class="row g-3">
-                        <div class="col-sm-6">
-                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Seguridad</h6>
-                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Variedad</h6>
-                        </div>
-                        <div class="col-sm-6">
-                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Soporte</h6>
-                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Precios bajos</h6>
-                        </div>
-                    </div>
-                    <div class="d-flex align-items-center mt-4">
-                    <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-facebook-f"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-twitter"></i></a>
-                    <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-instagram"></i></a>
-                    <a class="btn btn-outline-primary btn-square" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
                 </div>
             </div>
         </div>
@@ -106,9 +90,8 @@ if(isset($_SESSION['user'])){
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-                    <div class="text-white px-3 py-2 mb-3 d-inline-block" style="background-color: #430146; border-radius: 10px;">Nuestro equipo</div>
                     <h1 class="mb-4">Conoce a los miembros del equipo</h1>
-                    <a class="btn rounded-pill px-4" href="https://github.com/CarlosAdairVS/pixelparadise" style="background-color: #430146; color: white; border: none;">Leer más</a>
+                    <a class="btn rounded-pill px-4" href="https://github.com/CarlosAdairVS/pixelparadise" style="background-color: #430146; color: white; border: none;">GitHub Proyecto</a>
                 </div>
                 <div class="col-lg-7">
                     <div class="row g-4">
@@ -134,4 +117,22 @@ if(isset($_SESSION['user'])){
     <!-- Team End -->
 
 </body>
+<footer>
+<div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Seguridad</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Variedad</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Soporte</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Precios bajos</h6>
+                        </div>
+                    </div>
+    <div class="d-flex align-items-center mt-4">
+        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-primary btn-square" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</footer>
 </html>
