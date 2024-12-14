@@ -18,7 +18,7 @@ if(isset($_SESSION['user'])){
 <html>
 <head>
     <meta charset="UTF-8" />
-    <link rel="shortcut icon" href="assets\image\joystick.png" />
+    <link rel="shortcut icon" href="assets\image\pixelLogo.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil de Usuario</title>

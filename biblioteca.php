@@ -3,25 +3,41 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Tienda</title>
-  <script src="assets\js\script.js"></script>
-  <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <link rel="shortcut icon" href="assets\image\joystick.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="assets\css\style.css"/>
+    <!-- Usando fontawesome para iconos-->
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <!-- --->
+    <script src="assets\js\script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 </head>
 
-<body>
-  <!--Barra de navegación -->
-  <div id="nav-placeholder"></div>
-  <script>
-    $(function() {
-      $("#nav-placeholder").load("nav.php");
-    });
-  </script>
-  <!--Termina Barra de navegación -->
+<body class="sb-nav-fixed main-body">
+    <!--Barra de navegacion -->
+    <div id="nav-placeholder">
+    </div>
+    <script>
+        $(function(){
+            $("#nav-placeholder").load("nav.php");
+        });
+    </script>
+    <!--Termina Barra de navegacion -->
 
-  <div>Tienda de videojuegos</div>
+   <div class="text-center fs-1 fw-bold" style="color:#102e82">Tienda de videojuegos</div>  
 
-  <div id="main">
-    <div>
+  <div class="container" id="main">
+    <div class="row">
       <?php
         include_once 'conection.php';
         session_start();        
@@ -31,22 +47,28 @@
         
         foreach($resultado1 as $item){ 
       ?>
-      <div>
-        <div>
-          <div>
-            <h4><?php echo $item['nombre_juego']; ?></h4>
+      <div class="col-md-3 p-3 mb-2 bg-info text-white">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4 class="text-center mt-2"><?php echo $item['nombre_juego']; ?></h4>
           </div>
-          <div>
+          <div class="card-text text-center mt-2">
             <p>Precio: $ <?php echo $item['precio']; ?></p>
           </div>
-          <div>
-            <a href="detalles.php?id=<?php echo $item['id_videojuego']; ?>">Detalles</a>
-            <a href="procesar_cuenta.php?id=<?php echo $item['id_videojuego']; ?>">Comprar</a>
+          <div class="panel-body">
+            <img class="img-responsive rounded mx-auto d-block mt-2" height="150px" width="220px" src="data:image/jpeg;base64,<?php echo base64_encode($item['img_port']); ?>"/>
+          </div>
+          <div class="panel-footer d-flex justify-content-between align-items-center mt-3"> 
+            <a href="detalles.php?id=<?php echo $item['id_videojuego']; ?>" class="btn btn-primary ">Detalles</a>
+            <a href="procesar_cuenta.php?id=<?php echo $item['id_videojuego']; ?>" class="btn btn-primary ">Comprar</a>
           </div>
         </div>
       </div>
       <?php } ?>
     </div>  
   </div>
+
+  
+
 </body>
 </html>

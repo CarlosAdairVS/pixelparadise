@@ -14,7 +14,7 @@ if( isset($_SESSION['user']) ){
     $sentencia->execute(array($usuario));
     $resultado2 = $sentencia->fetch();
 }else{
-    header('Location:registro.php');
+    header('Location:signup.php');
 }
 ?>
 <!DOCTYPE html>
