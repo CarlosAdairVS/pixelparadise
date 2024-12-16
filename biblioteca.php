@@ -56,7 +56,7 @@
             <p>Precio: $ <?php echo $item['precio']; ?></p>
           </div>
           <div class="panel-body">
-            <img class="img-responsive rounded mx-auto d-block mt-2" height="150px" width="220px" src="data:image/jpeg;base64,<?php echo base64_encode($item['img_port']); ?>"/>
+            <img class="img-responsive rounded mx-auto d-block mt-2" height="150px" width="220px" src="data:image/png;base64,<?php echo base64_encode($item['imagen_portada']); ?>"/>
           </div>
           <div class="panel-footer d-flex justify-content-between align-items-center mt-3"> 
             <a href="detalles.php?id=<?php echo $item['id_videojuego']; ?>" class="btn btn-primary ">Detalles</a>

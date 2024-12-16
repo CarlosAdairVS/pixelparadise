@@ -54,10 +54,10 @@
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img class="d-block w-100" src="data:image/jpeg;base64,<?php echo base64_encode($detalle_producto['img_ref1']); ?>"/>
+                  <img class="d-block w-50" src="data:image/jpeg;base64,<?php echo base64_encode($detalle_producto['imagen_1']); ?>"/>
                 </div>
                 <div class="carousel-item">
-                  <img class="d-block w-100" src="data:image/jpeg;base64,<?php echo base64_encode($detalle_producto['img_ref2']); ?>"/>
+                  <img class="d-block w-100" src="data:image/jpeg;base64,<?php echo base64_encode($detalle_producto['imagen_2']); ?>"/>
                 </div>
               </div>
               <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">

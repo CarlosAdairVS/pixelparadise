@@ -101,7 +101,6 @@ if(isset($_SESSION['user'])){
                                     <div class="team-item bg-white text-center rounded p-4 pt-0">
                                         <img class="img-fluid rounded-circle p-4" src="https://avatars.githubusercontent.com/u/182252158?v=4" alt="">
                                         <h5 class="mb-0">Carlos Adair Vargas Sosa</h5>
-                                        <small>Programador</small>
                                         <div class="d-flex justify-content-center mt-3">
                                             <a class="btn btn-square btn-primary m-1" href="https://github.com/CarlosAdairVS" style="background-color: #430146; color: white; border: none;"><i class="fab fa-github"></i></a>
                                         </div>

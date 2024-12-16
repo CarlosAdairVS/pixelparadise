@@ -62,6 +62,7 @@ if(isset($_SESSION['user'])){
                         <li><a class="dropdown-item" href="setting.php" style="<?= (isset($_SESSION['user'])) ?'display: block':'display:none';?>">Configuración</a></li>
                         <li><a class="dropdown-item" href="biblioteca.php" style="<?= (isset($_SESSION['user'])) ?'display: block':'display:none';?>">Biblioteca</a></li>
                         <li><a class='dropdown-item' href="admin.php" style="<?=($resultado2['type_user']==TRUE) ?'display: block':'display:none';?>">Administración</a></li>
+                        <li><a class='dropdown-item' href="add_video.php" style="<?=($resultado2['type_user']==TRUE) ?'display: block':'display:none';?>">Agregar videojuego</a></li>
                         <li><hr class="dropdown-divider" style="<?= (isset($_SESSION['user'])) ?'display: block':'display:none';?>"></li>
                         <li style="display: block;"><a class="dropdown-item" href="<?=(isset($_SESSION['user'])) ? 'close.php':'login.php';?>">Sesión</a></li>
                     </ul>
