@@ -27,15 +27,6 @@ if(isset($_SESSION['user'])){
         <!--Barra que se colapsa-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item mt-3">
-                    <!-- Navbar Search-->
-                    <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
-                        <div class="input-group">
-                            <input class="form-control" type="text" placeholder="Busqueda" aria-label="Busqueda" aria-describedby="btnNavbarSearch" />
-                            <button class="btn btn-primary" id="btnNavbarSearch" type="button" style="background-color: #fdb9ff; color: white; border: none;"><i class="fas fa-search"></i></button>
-                        </div>
-                    </form>
-                </li>
                 <li class="nav-item active mx-3 mt-2">
                     <a class="nav-link text-white fs-5" href="index.php">Inicio<span class="sr-only"></span></a>
                 </li>

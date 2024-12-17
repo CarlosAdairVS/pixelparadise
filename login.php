@@ -29,12 +29,6 @@
 
     <!--LOGIN-->
     <form action="login_sql.php" method="POST">
-      <!-- <div class="input-group mt-4">
-        <div class="input-group-text" style="background-color:#660022">
-          <img src="\php\login_WE\assets\userW.png" alt="username-icon"style="height: 1rem"/>
-        </div>
-        <input class="form-control bg-light" type="text" name="nombre_usuario" placeholder="Nombre"/>
-      </div> -->
       <div class="input-group mt-4">
         <div class="input-group-text" style="background-color: #060636">
           <img src="assets\image\email_icon.png" alt="email-icon" style="width: 1rem"/>

@@ -128,10 +128,10 @@ if(isset($_SESSION['user'])){
                         </div>
                     </div>
     <div class="d-flex align-items-center mt-4">
-        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-facebook-f"></i></a>
-        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-twitter"></i></a>
-        <a class="btn btn-outline-primary btn-square me-3" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-instagram"></i></a>
-        <a class="btn btn-outline-primary btn-square" href="" style="color: #430146; border-color: #430146;"><i class="fab fa-linkedin-in"></i></a>
+        <a class="btn btn-outline-primary btn-square me-3" href="https://www.facebook.com/?locale=es_LA" style="color: #430146; border-color: #430146;"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-outline-primary btn-square me-3" href="https://x.com/?lang=es" style="color: #430146; border-color: #430146;"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-outline-primary btn-square me-3" href="https://www.instagram.com/" style="color: #430146; border-color: #430146;"><i class="fab fa-instagram"></i></a>
+        <a class="btn btn-outline-primary btn-square" href="https://mx.linkedin.com/" style="color: #430146; border-color: #430146;"><i class="fab fa-linkedin-in"></i></a>
     </div>
 </footer>
 </html>
