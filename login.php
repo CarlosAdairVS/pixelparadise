@@ -46,16 +46,6 @@
           <img src="assets\image\view.png" alt="show-password" id="img-passis" style="width:1.5rem; opacity: 0.3;">
         </div>
       </div>
-      
-      <div class="d-flex gap-1 justify-content mt-1">
-        <a
-        href="forget.php"
-        class="text-decoration-none fw-semibold fst-italic"
-        style="font-size: 0.9rem;"
-        target=”_blank”
-        >¿Olvidaste tu contraseña?
-      </a>
-    </div>
 
     <button class="btn text-white w-100 mt-4 fw-semibold shadow-sm" type="submit" style="background-color: #060636">
       Ingresar
