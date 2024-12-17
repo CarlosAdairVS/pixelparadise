@@ -57,7 +57,7 @@
         <a
         href="forget.php"
         class="text-decoration-none fw-semibold fst-italic"
-        style="font-size: 0.9rem; text-color:#1a0008";
+        style="font-size: 0.9rem;"
         target=”_blank”
         >¿Olvidaste tu contraseña?
       </a>
@@ -70,7 +70,7 @@
 
   <div class="d-flex gap-1 justify-content-center mt-1">
     <div>¿No tienes una cuenta?</div>
-    <a href="signup.php" class="text-decoration-none fw-semibold" style="text-color:#1a0008";>
+    <a href="signup.php" class="text-decoration-none fw-semibold">
       Registrarse
     </a>
   </div>
