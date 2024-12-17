@@ -56,6 +56,7 @@ CREATE TABLE `videojuegos` (
   `id_videojuego` int(11) NOT NULL, -- Identificador único del videojuego
   `nombre_juego` varchar(255) DEFAULT NULL, -- Nombre del videojuego
   `descripcion` varchar(1500) NOT NULL, -- Descripción del videojuego
+  `categoria` varchar(255) DEFAULT NULL, -- Nombre de categoria
   `precio` float UNSIGNED DEFAULT NULL, -- Precio del videojuego
   `imagen_portada` varchar(255) NOT NULL, -- URL de la imagen de portada del videojuego
   `imagen_1` varchar(255) NOT NULL, -- URL de la primera imagen del videojuego
